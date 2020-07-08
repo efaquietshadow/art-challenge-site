@@ -1,6 +1,20 @@
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .color-boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        border: 2px solid black;
+        margin-top: 10px;
+    }
+}
+
 .wrapper {
     .color-box {
-        height: 100px;
-        width: 100px;
+        height: 110px;
+        width: 110px;
+        margin: 10px;
     }
 }

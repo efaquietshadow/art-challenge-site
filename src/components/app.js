@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import RandomColor from "./random-color";
+import ColorWrapper from "./random-color-page/color-page";
 
 export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <RandomColor />
+        <ColorWrapper />
       </div>
     );
   }
