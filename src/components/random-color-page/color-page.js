@@ -33,7 +33,7 @@ export default class ColorWrapper extends Component {
         const newColors = []
         const numColors = document.querySelector("#boxNumber").value
 
-        for (var i = 0; i < this.state.numberOfBoxes; i++) {
+        for (var i = 0; i < numColors; i++) {
             newColors.push("#" + Math.floor(Math.random()*16777215).toString(16))
         }
         this.setState({

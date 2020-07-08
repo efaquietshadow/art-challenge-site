@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-export default function RandomColor(props) {
-    return (
-        <div className='wrapper'>
-            <div className="color-box" style={{backgroundColor: props.color}}>{props.color}</div>
-        </div>
-    )
+export default class RandomColor extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state={
+            color: props.color
+        }
+    }
+
+    render() {
+        return (
+            <div className='wrapper'>
+                <div className="color-box" style={{backgroundColor: this.props.color}}>{this.props.color}</div>
+            </div>
+        )
+    }
 }
