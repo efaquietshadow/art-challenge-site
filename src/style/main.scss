@@ -1,5 +1,12 @@
+@import "variables.scss";
 @import "randomcolor.scss";
+@import "nav-bar.scss";
 
+
+body {
+    margin: 0;
+    background-color: $light-grey;
+}
 // html {
 //     font-size: 62.5%; // 1rem is 10px
 // }

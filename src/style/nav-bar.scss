@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    color: $offwhite;
+    background-color: $dark-teal;
+    padding: 15px;
+    margin: 0px;
+
+    .link {
+        color: $offwhite;
+        text-decoration: none;
+    }
+}

@@ -45,6 +45,7 @@ export default class ColorWrapper extends Component {
     render() {
         return (
             <div className='page-wrapper'>
+                <h1>Random Color challenge</h1>
                 <div className="input-and-button">
                     <input 
                     type="text" 
